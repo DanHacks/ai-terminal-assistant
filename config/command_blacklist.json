@@ -1,0 +1,9 @@
+[
+  "rm -rf",
+  "dd",
+  "mkfs",
+  "shutdown",
+  "reboot",
+  "format",
+  ":(){:|:&};:"
+]

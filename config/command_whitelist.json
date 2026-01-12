@@ -1,0 +1,11 @@
+[
+  "ls",
+  "pwd",
+  "cd",
+  "cat",
+  "echo",
+  "find",
+  "grep",
+  "python",
+  "pip"
+]

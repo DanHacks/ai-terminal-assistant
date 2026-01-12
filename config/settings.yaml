@@ -1,0 +1,4 @@
+platform: auto
+confirm_before_execution: true
+log_commands: true
+ai_provider: openai

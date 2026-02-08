@@ -1,0 +1,44 @@
+store:
+  name: "ElectroPOS Store"
+  address: "123 Main Street, Suite 100"
+  city: "New York, NY 10001"
+  phone: "(555) 123-4567"
+  email: "info@electropos.com"
+  website: "www.electropos.com"
+
+tax:
+  rate: 0.08
+  name: "Sales Tax"
+  enabled: true
+
+currency:
+  symbol: "$"
+  code: "USD"
+  decimal_places: 2
+
+receipt:
+  width: 48
+  show_logo: true
+  footer_message: "Thank you for shopping with us!"
+  show_tax_breakdown: true
+  show_savings: true
+
+loyalty:
+  enabled: true
+  points_per_dollar: 10
+  points_redemption_rate: 0.01
+
+inventory:
+  low_stock_threshold: 10
+  enable_alerts: true
+  track_history: true
+
+database:
+  path: "pos_database.db"
+  echo: false
+
+security:
+  max_login_attempts: 3
+  session_timeout_minutes: 30
+  require_manager_for_refund: true
+  require_manager_for_discount_above: 20.0

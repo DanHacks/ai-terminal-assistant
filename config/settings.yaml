@@ -2,3 +2,30 @@ platform: auto
 confirm_before_execution: true
 log_commands: true
 ai_provider: openai
+
+# Action settings
+actions:
+  send_message:
+    enabled: true
+    # provider: twilio  # Uncomment and configure for real SMS
+  make_call:
+    enabled: true
+    # provider: twilio
+  place_order:
+    enabled: true
+    # provider: custom_api
+  send_email:
+    enabled: true
+    # smtp_host: smtp.gmail.com
+    # smtp_port: 587
+  set_reminder:
+    enabled: true
+    storage: local  # 'local' stores in data/reminders.json
+  web_search:
+    enabled: true
+    engine: google
+  get_weather:
+    enabled: true
+    # api_key: YOUR_OPENWEATHERMAP_KEY
+  open_app:
+    enabled: true
